@@ -19,7 +19,7 @@ body{
     margin: auto;
     height: 76%;
     border-radius: 3%;
-    padding: 10px;
+    padding: 50px;
     box-shadow: 3px 2px 15px #a672cd;
 }
 #login_Main_tex{
@@ -54,15 +54,17 @@ input{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    }
+}
 #lgnBtn{
-    padding: 3px;
+    padding: 8px;
     font-size: 16px;
     font-family:'Courier New', Courier, monospace;
     font-weight: 700;
     color: blue;
     cursor:grab;
-
+    width: 80px;
+    border: none;
+    background-color: aqua;
 }
 /* login logo division */
 .SignUp_fbGoogleLogo, img{
